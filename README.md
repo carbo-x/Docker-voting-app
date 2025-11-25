@@ -195,5 +195,7 @@ Feel free to fork the repo and open a pull request.
 
 👤 Author
 Denish
+```
 Docker Hub: denish952
 GitHub: carbo-x
+```
