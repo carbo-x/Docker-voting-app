@@ -173,10 +173,10 @@ How to structure a project that can easily fit into CI/CD pipelines
 Docker Compose
 
 ```
-docker-compose logs vote
-docker-compose logs worker
-docker-compose logs result
-docker-compose restart
+docker compose logs vote
+docker compose logs worker
+docker compose logs result
+docker compose restart
 ```
 
 Kubernetes
