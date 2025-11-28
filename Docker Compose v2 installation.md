@@ -20,9 +20,13 @@ sudo chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
 docker compose version
 ```
 
-If you see a version output, you’re good.
-
-Use it like this:
+If you see a version output.
+```
+Docker Compose version v2.29.7
+```
+ you’re good
+ 
+start build:
 ```
 docker compose up --build -d
 ```
