@@ -3,20 +3,26 @@
 Run these steps:
 
 1. Create plugin directory
+```
 sudo mkdir -p /usr/local/lib/docker/cli-plugins
-
-2. Download docker compose v2
+```
+3. Download docker compose v2
+```
 sudo curl -SL https://github.com/docker/compose/releases/download/v2.29.7/docker-compose-linux-x86_64 \
   -o /usr/local/lib/docker/cli-plugins/docker-compose
-
-3. Make it executable
+```
+4. Make it executable
+```
 sudo chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
-
-4. Verify
+```
+6. Verify
+```
 docker compose version
-
+```
 
 If you see a version output, you’re good.
 
 Use it like this:
+```
 docker compose up --build -d
+```
